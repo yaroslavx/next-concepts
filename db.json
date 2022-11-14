@@ -1,4 +1,10 @@
 {
+  "dashboard": {
+    "posts": 123,
+    "likes": 44,
+    "followers": 35,
+    "following": 111
+  },
   "news": [
     {
       "id": 1,
