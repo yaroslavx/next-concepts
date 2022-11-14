@@ -1,0 +1,22 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "News article 1",
+      "description": "Description 1",
+      "category": "space"
+    },
+    {
+      "id": 2,
+      "title": "News article 2",
+      "description": "Description 2",
+      "category": "drive"
+    },
+    {
+      "id": 3,
+      "title": "News article 3",
+      "description": "Description 3",
+      "category": "space"
+    }
+  ]
+}
