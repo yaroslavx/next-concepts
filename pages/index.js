@@ -1,8 +1,10 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react';
+import { useSession } from 'next-auth/client';
 
 const Home = () => {
+  const [session, loading] = useSession();
   const router = useRouter();
   function handleOrder() {
     router.push('/product');
