@@ -16,6 +16,8 @@ const Blog = ({ title, description }) => {
 export default Blog;
 
 export const getServerSideProps = async (context) => {
+  const user = process.env.DB_USER;
+  const passwort = process.env.DB_PASSWORD;
   return {
     props: {
       title: 'Article title',
